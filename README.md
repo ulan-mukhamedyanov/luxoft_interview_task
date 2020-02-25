@@ -1,5 +1,13 @@
 # Luxoft Interview Tasks
 
+## Solution guide
+
+Solution code is located in ```src/main/java/com/jw/```.
+
+Computational complexities are mentioned over corresponding methods in JavaDocs.
+
+Unit test have been prepared for the solutions and are located in ```src/test/java/com/jw```.
+
 ## Task 1:
 
 1. Write a function/method that accepts a list of string tokens and a separate text string as an input and checks if the latter string can be represented as a concatenation of any subset of tokens from the first argument, where each token can be used multiple times. Examples:
@@ -40,12 +48,3 @@ We don't care about preprocessor() performance much, but we want validator() to 
 ```
 
 2. What is the computational complexity of your implementation?
-
-
-## Solution guide
-
-Solution code is located in ```src/main/java/com/jw/```.
-
-Computational complexities are mentioned over corresponding methods in JavaDocs.
-
-Unit test have been prepared for the solutions and are located in ```src/test/java/com/jw```.
