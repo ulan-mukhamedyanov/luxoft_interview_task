@@ -37,7 +37,6 @@ public class TestStringChecker {
                 sb.append(tokens[random.nextInt(tokens.length)]);
             }
             String res = sb.toString();
-            System.out.println(res);
             Assert.assertTrue(stringChecker.check(res));
         }
 
